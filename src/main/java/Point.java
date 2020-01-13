@@ -5,7 +5,7 @@ import javax.persistence.*;
 @Entity
 public class Point {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private int id;
     private double x = 0;
     private double y;
