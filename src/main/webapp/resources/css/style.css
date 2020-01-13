@@ -1,0 +1,92 @@
+
+body {
+    margin: 1%;
+    background: #95a3b3;
+}
+
+.main{
+    width: 98%;
+    height: 98%;
+    text-align: center;
+    position: absolute;
+    background-color: #84DCC6;
+}
+.main th{
+
+}
+table {
+    margin: auto;
+    width: 90%;
+    border-radius: 5px;
+    border-collapse: inherit;
+}
+
+.form_table{
+    border-collapse: collapse;
+    background: #95a3b3;
+    border: 1px solid white;
+}
+
+.but{
+    color: #222222;
+    background: #95a3b3;
+    border: 2px solid #222222;
+    border-radius: 1px;
+}
+.but:hover{background: #666699}
+
+#pointTable th {
+    font-weight: normal;
+    background: #95a3b3;
+    width: 150px;
+    border-bottom: 1px solid #fff;
+    color: #222222;
+    padding: 8px;
+}
+#pointTable td {
+    background: #e8edff;
+    border-bottom: 1px solid #fff;
+    color: #669;
+    border-top: 1px solid transparent;
+    padding: 8px;
+}
+
+#pointTable tr:hover td {background: #ccddff;}
+
+.form_table{
+    border-color: white;
+    border-collapse: collapse;
+}
+
+.top{
+    text-align: left;
+    background: #4b4e6d;
+    color: #95a3b3;
+}
+.time{
+    background: white;
+    color: #4b4e6d;
+
+}
+
+#canvas{
+    border: 3px solid #4b4e6d;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+fieldset {
+    width: 90%;
+    margin: auto;
+}
+
+.warning{
+    font-size: small;
+    color: #b23d30;
+}
+
+span{
+    font-size: 17px;
+    font-weight: bold;
+    color: #222222;
+}

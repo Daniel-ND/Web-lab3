@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+
+
+<h:head>
+   <title>Стартовая страница</title>
+   <h:outputScript library="js" name="clock.js"/>
+   <h:outputStylesheet library="css" name="style.css"/>
+</h:head>
+
+<h:body styleClass="body">
+   <p:panelGrid styleClass="main">
+      <p:row>
+         <p:column styleClass="top">
+            <p id="lab">
+               <b>Лабораторная работа №3</b>
+            </p>
+            <p id="name"><b>Выполнила:</b> Никольская Дарья Владимировна,
+               <b>гр.</b> P3211
+               <br></br>
+               <b>Вариант:</b> 45152
+            </p>
+         </p:column>
+      </p:row>
+      <p:row>
+         <p:column styleClass="time">
+            <br></br>
+            <p style="alignment: center"><b>ДАТА</b></p>
+            <span style="font-size: large" id="date">date</span>
+            <br></br>
+            <p><b>ВРЕМЯ</b></p>
+            <span style="font-size: large" id="clock">date</span>
+            <br></br>
+         </p:column>
+      </p:row>
+      <p:row>
+         <p:column styleClass="top" style="text-align: center">
+            <div>
+               <h:button value="перейти к проверке" outcome="main" styleClass="but"/>
+            </div>
+         </p:column>
+      </p:row>
+   </p:panelGrid>
+</h:body>
+</html>
